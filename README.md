@@ -1,6 +1,7 @@
 # Assignment 1 - API testing and Source Control.
 
 Name: Ying Yan
+GitHub repository: https://github.com/gullveigy/MyAccountingAPItestings.git.
 
 ## Overview.
 
@@ -140,8 +141,10 @@ My tests included the integration of MongoDB.(db name:"gullin",it has 3 collecti
 ## Sample Test execution.
 
 
- > Users\dell\donationwebs\accountingtestings
- > mocha -t 50000 test/routes/expenditure-test.js
+          $ npm test
+
+          > Users\dell\donationwebs\accountingtestings
+          > mocha -t 50000 test/routes/expenditure-test.js
             Expenditures
                 POST /expenditures
             Successfully Connected to [ gullin ]
@@ -190,13 +193,14 @@ My tests included the integration of MongoDB.(db name:"gullin",it has 3 collecti
 
                 20 passing (6s)
 
+          $
 
 
 
+          $ npm test
 
-
- > Users\dell\donationwebs\accountingtestings
- > mocha -t 50000 test/routes/users-test.js
+          > Users\dell\donationwebs\accountingtestings
+          > mocha -t 50000 test/routes/users-test.js
             Users
                 POST /users
             Successfully Connected to [ gullin ]
@@ -230,14 +234,14 @@ My tests included the integration of MongoDB.(db name:"gullin",it has 3 collecti
 
                 13 passing (5s)
 
+          $
 
 
 
+          $ npm test
 
-
-
- > Users\dell\donationwebs\accountingtestings
- > mocha -t 50000 test/routes/income-test.js
+          > Users\dell\donationwebs\accountingtestings
+          > mocha -t 50000 test/routes/income-test.js
             Incomes
                 GET /incomes
             Successfully Connected to [ gullin ]
@@ -285,6 +289,9 @@ My tests included the integration of MongoDB.(db name:"gullin",it has 3 collecti
 
 
                 20 passing (6s)
+
+          $
+
 
 [ Markdown Tip: By indenting the above listing, GitHub will display it in a 'box' and preserve any formatting.]
 
