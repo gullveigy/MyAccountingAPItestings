@@ -63,6 +63,7 @@ Model: incomes
 
 My tests included the integration of MongoDB.(db name:"gullin",it has 3 collections:expendituredb/incomedb/userdb)
 
+$
 1. expendituredb:
    1) database schema
        let ExpenditureSchema = new mongoose.Schema({
@@ -134,6 +135,8 @@ My tests included the integration of MongoDB.(db name:"gullin",it has 3 collecti
          "password": "qwert1997",
          "__v": 0
        }
+
+$
 
 
 
